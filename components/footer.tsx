@@ -11,7 +11,7 @@ export default function Footer() {
                         <Image
                             className={styles.image16Icon}
                             alt="LEADIT Logo"
-                            src="/logo.png"
+                            src="/leadit-web/logo.png"
                             width={157}
                             height={35}
                         />

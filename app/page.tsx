@@ -40,7 +40,7 @@ export default function Home() {
                     </div>
                     <div className={styles.section1}>
                         <div className={styles.card}>
-                            <Image className={styles.cardImageIcon} width={214} height={230} sizes="100vw" alt="" src="/icon_bizman.png" />
+                            <Image className={styles.cardImageIcon} width={214} height={230} sizes="100vw" alt="" src="/leadit-web/icon_bizman.png" />
                             <div className={styles.content3}>
                                 <div className={styles.text2}>
                                     <div className={styles.cardTitle}>통합인사관리 프로그램</div>
@@ -81,12 +81,12 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <Image className={styles.cardImageIcon2} width={235} height={232} sizes="100vw" alt="" src="/icon_bizlms.png" />
+                            <Image className={styles.cardImageIcon2} width={235} height={232} sizes="100vw" alt="" src="/leadit-web/icon_bizlms.png" />
                         </div>
                     </div>
                     <div className={styles.section3}>
                         <div className={styles.card3}>
-                            <Image className={styles.cardImageIcon3} width={243} height={209} sizes="100vw" alt="" src="/icon_bizsupport.png" />
+                            <Image className={styles.cardImageIcon3} width={243} height={209} sizes="100vw" alt="" src="/leadit-web/icon_bizsupport.png" />
                             <div className={styles.content3}>
                                 <div className={styles.text2}>
                                     <div className={styles.cardTitle}>후원관리 프로그램</div>

@@ -23,7 +23,7 @@ export default function Header() {
                     <Image
                         className={styles.image16Icon}
                         alt="LEADIT Logo"
-                        src="/logo.png"
+                        src="/leadit-web/logo.png"
                         width={157}
                         height={35}
                     />
@@ -39,7 +39,7 @@ export default function Header() {
                     width={28}
                     height={28}
                     alt="메뉴버튼"
-                    src="/menu.png"
+                    src="/leadit-web/menu.png"
                     onClick={toggleMenu}
                 />
             </header>
@@ -49,7 +49,7 @@ export default function Header() {
             <div className={`${styles.side_nav} ${isMenuOpen ? styles.active : ''}`}>
                 <div className={styles.closeBtnWrapper}>
                     <Image
-                        src="/close.png"
+                        src="/leadit-web/close.png"
                         alt="닫기"
                         width={24}
                         height={24}

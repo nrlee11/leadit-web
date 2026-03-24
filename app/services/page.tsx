@@ -23,14 +23,14 @@ export default function DesktopServices() {
                             <span>을 통해 발전된 가치를 만드는 기업입니다."</span>
                         </div>
                         <div className={styles.card1}>
-                            <Image className={styles.image77Icon} width={85} height={107} sizes="100vw" alt="" src="/icon_growth.png" />
+                            <Image className={styles.image77Icon} width={85} height={107} sizes="100vw" alt="" src="/leadit-web/icon_growth.png" />
                             <div className={styles.growthParent}>
                                 <div className={styles.growth}>Growth</div>
                                 <div className={styles.div7}>기술과 사람의 성장을 함께 추구하여 지속 가능한 미래를 만듭니다.</div>
                             </div>
                         </div>
                         <div className={styles.card2}>
-                            <Image className={styles.image78Icon} width={70} height={110} sizes="100vw" alt="" src="/icon_innovation.png" />
+                            <Image className={styles.image78Icon} width={70} height={110} sizes="100vw" alt="" src="/leadit-web/icon_innovation.png" />
                             <div className={styles.growthParent}>
                                 <div className={styles.growth}>Innovation</div>
                                 <div className={styles.div7}>변화를 두려워하지 않고, 새로운 기술로 세상의 문제를 해결합니다.</div>
@@ -38,7 +38,7 @@ export default function DesktopServices() {
                         </div>
                     </div>
                 </div>
-                <Image className={styles.imageBreakIcon} width={1920} height={737} sizes="100vw" alt="" src="/services_bg.png" />
+                <Image className={styles.imageBreakIcon} width={1920} height={737} sizes="100vw" alt="" src="/leadit-web/services_bg.png" />
                 <div className={styles.howItWorksSection}>
                     <div className={styles.intro2}>
                         <div className={styles.content2}>
@@ -149,11 +149,11 @@ export default function DesktopServices() {
                         </div>
                     </div>
 
-                    <Image className={styles.imageIcon} width={750} height={750} sizes="100vw" alt="" src="/symbol.png" />
+                    <Image className={styles.imageIcon} width={750} height={750} sizes="100vw" alt="" src="/leadit-web/symbol.png" />
 
                 </div>
                 <div className={styles.content21}>
-                    <Image className={styles.imageIcon2} width={750} height={750} sizes="100vw" alt="" src="/brandlogo.png" />
+                    <Image className={styles.imageIcon2} width={750} height={750} sizes="100vw" alt="" src="/leadit-web/brandlogo.png" />
                     <div className={styles.text18}>
                         <div className={styles.text19}>
                             <div className={styles.subtit}>브랜드 로고</div>
@@ -170,7 +170,7 @@ export default function DesktopServices() {
                             <div className={styles.it}>명확한 역할과 협업을 통해 더 큰 가치를 창출합니다.</div>
                         </div>
                     </div>
-                    <Image className={styles.imageIcon} width={750} height={750} sizes="100vw" alt="" src="/organizationchart.svg" />
+                    <Image className={styles.imageIcon} width={750} height={750} sizes="100vw" alt="" src="/leadit-web/organizationchart.svg" />
                 </div>
                 <div className={styles.philosophySection2}>
                     <div className={styles.intro3}>

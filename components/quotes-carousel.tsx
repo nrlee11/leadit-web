@@ -79,7 +79,7 @@ export default function QuotesCarousel({ quotes }: QuotesCarouselProps) {
                             height={48}
                             sizes="100vw"
                             alt=""
-                            src={"/profile.png"}
+                            src={"/leadit-web/profile.png"}
                         />
                         <div className={styles.author}>{quote.author}</div>
                     </div>

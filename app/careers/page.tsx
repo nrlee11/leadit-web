@@ -168,49 +168,49 @@ const Careers: NextPage = () => {
                     <div className={styles.sectionTitle}>복리후생</div>
                     <div className={styles.benefitsGrid}>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={41} height={41} alt="주 5일 근무" src="/icon_workhour.png" />
+                            <Image className={styles.benefitIcon} width={41} height={41} alt="주 5일 근무" src="/leadit-web/icon_workhour.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>주 5일 근무</div>
                                 <div className={styles.benefitDesc}>연차 유급휴가</div>
                             </div>
                         </div>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={43} height={39} alt="보험" src="/icon_insurance.png" />
+                            <Image className={styles.benefitIcon} width={43} height={39} alt="보험" src="/leadit-web/icon_insurance.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>보험</div>
                                 <div className={styles.benefitDesc}>국민연금, 의료보험, 산재보험, 고용보험</div>
                             </div>
                         </div>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={36} height={48} alt="휴대폰 통신비 지원" src="/icon_phone.png" />
+                            <Image className={styles.benefitIcon} width={36} height={48} alt="휴대폰 통신비 지원" src="/leadit-web/icon_phone.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>휴대폰 통신비 지원</div>
                                 <div className={styles.benefitDesc}>매월 일정금액 지급</div>
                             </div>
                         </div>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={39} height={29} alt="문화생활비 지원" src="/icon_entertainment.png" />
+                            <Image className={styles.benefitIcon} width={39} height={29} alt="문화생활비 지원" src="/leadit-web/icon_entertainment.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>문화생활비 지원</div>
                                 <div className={styles.benefitDesc}>매월 일정금액 지급</div>
                             </div>
                         </div>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={37} height={23} alt="교통비 지원" src="/icon_transportation.png" />
+                            <Image className={styles.benefitIcon} width={37} height={23} alt="교통비 지원" src="/leadit-web/icon_transportation.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>교통비 지원</div>
                                 <div className={styles.benefitDesc}>매월 일정금액 지급</div>
                             </div>
                         </div>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={37} height={41} alt="명절 선물" src="/icon_gift.png" />
+                            <Image className={styles.benefitIcon} width={37} height={41} alt="명절 선물" src="/leadit-web/icon_gift.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>명절 선물</div>
                                 <div className={styles.benefitDesc}>추석/설 상품권 지급</div>
                             </div>
                         </div>
                         <div className={styles.benefitItem}>
-                            <Image className={styles.benefitIcon} width={41} height={41} alt="경조사비 지원" src="/icon_money.png" />
+                            <Image className={styles.benefitIcon} width={41} height={41} alt="경조사비 지원" src="/leadit-web/icon_money.png" />
                             <div className={styles.benefitContent}>
                                 <div className={styles.benefitTitle}>경조사비 지원</div>
                                 <div className={styles.benefitDesc}>경조사 규정에 따라 지급</div>

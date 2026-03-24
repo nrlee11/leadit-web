@@ -93,7 +93,7 @@ const Projects: NextPage = () => {
                     <div className={styles.step13}>
                         <div className={styles.frameParent2}>
                             <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/kwwa.png" />
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/khuniv.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/khuniv.png" />
                         </div>
                         <div className={styles.content4}>
                             <div className={styles.text3}>
@@ -152,14 +152,14 @@ const Projects: NextPage = () => {
                         </div>
                         <div className={styles.frameParent2}>
 
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/bizlms.png" />
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/incheonairport.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/bizlms.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/incheonairport.png" />
                         </div>
                     </div>
                     <div className={styles.step13}>
                         <div className={styles.frameParent2}>
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/kpc.png" />
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/ajuuniv.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/kpc.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/ajuuniv.png" />
                         </div>
                         <div className={styles.content4}>
                             <div className={styles.text5}>
@@ -227,15 +227,15 @@ const Projects: NextPage = () => {
                         </div>
                         <div className={styles.frameParent2}>
 
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/postech.png" />
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/khuniv2.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/postech.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/khuniv2.png" />
                         </div>
                     </div>
                     <div className={styles.step13}>
                         <div className={styles.frameParent2}>
 
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/redcross.png" />
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/snu.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/redcross.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/snu.png" />
                         </div>
                         <div className={styles.content4}>
 
