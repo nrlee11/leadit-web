@@ -1,0 +1,561 @@
+.desktop {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    color: #fff;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'prentendard';
+}
+
+
+.main {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #263238;
+    padding-top: 100px;
+}
+
+/* 솔루션 탭 네비게이션 */
+.tabNavigation {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+    gap: 0;
+}
+
+.tabActive {
+    flex: 1;
+    background: linear-gradient(135deg, #5B4FE9 0%, #7C6FFF 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 24px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    position: relative;
+}
+
+.tabActive::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+}
+
+.tabInactive {
+    flex: 1;
+    border: 2px solid #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 24px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.tabInactive:hover {
+    border-color: #5B4FE9;
+}
+
+.tabText {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-align: center;
+}
+
+.tabInactive .tabText {
+    color: #374151;
+}
+
+/* 히어로 섹션 */
+.heroSection {
+    width: 100%;
+    background-color: #DAE1FF;
+    padding: 80px 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.heroContent {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.heroTextWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.heroSubtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5B4FE9;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.heroTitle {
+    font-size: 56px;
+    font-weight: 700;
+    color: #1F2937;
+    letter-spacing: -0.04em;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.heroDescription {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-gray-700);
+    letter-spacing: -0.02em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.ctaButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -0.01em;
+    padding: 12px 40px;
+    background: linear-gradient(135deg, #5B4FE9 0%, #7C6FFF 100%);
+    border-radius: 50px;
+    cursor: pointer;
+    /* transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 20px rgba(91, 79, 233, 0.3); */
+}
+
+
+
+.heroImageWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* 기능 섹션 */
+.featureSection {
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.featureSectionAlt {
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.featureContent {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.featureSectionAlt .featureContent {
+    flex-direction: row-reverse;
+}
+
+.featureText {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.featureLabel {
+    font-size: 18px;
+    font-weight: 800;
+    color: #5B4FE9;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.featureTitle {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1F2937;
+    letter-spacing: -0.03em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.featureDescription {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7280;
+    letter-spacing: -0.01em;
+    line-height: 1.7;
+    margin: 0;
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+
+.featureDescription li {
+    list-style-position: outside;
+    margin-bottom: 12px;
+}
+
+.featureImageWrapper {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureImage {
+    width: 100%;
+    /* max-width: 600px; */
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.featureImage:hover {
+    transform: scale(1.02);
+}
+
+/* 시스템 기능 섹션 */
+.systemSection {
+    width: 100%;
+    background: linear-gradient(180deg, #F8F7FF 0%, #FFFFFF 100%);
+    padding: 100px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.systemGrid {
+    max-width: 1500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 24px;
+}
+
+.systemCard {
+    background: #fff;
+    border: 2px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 32px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    text-align: left;
+}
+
+.systemCard:hover {
+    border-color: #5B4FE9;
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(91, 79, 233, 0.15);
+}
+
+.systemTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F2937;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px 0;
+}
+
+.systemDescription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+    letter-spacing: -0.01em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* 반응형 디자인 - 태블릿 */
+@media (max-width: 1024px) {
+    .main {
+        padding-top: 83px;
+    }
+
+    .tabText {
+        font-size: 16px;
+    }
+
+    .heroSection {
+        padding: 60px 24px 0px;
+    }
+
+    .heroTitle {
+        font-size: 44px;
+    }
+
+    .heroDescription {
+        font-size: 18px;
+    }
+
+    .featureSection,
+    .featureSectionAlt {
+        padding: 80px 24px;
+    }
+
+    .featureContent,
+    .featureSectionAlt .featureContent {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .featureTitle {
+        font-size: 36px;
+    }
+
+    .featureDescription {
+        font-size: 16px;
+    }
+
+    .systemSection {
+        padding: 80px 24px;
+    }
+
+    .systemGrid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .systemCard {
+        padding: 28px;
+    }
+
+    .systemTitle {
+        font-size: 20px;
+    }
+
+    .systemDescription {
+        font-size: 15px;
+    }
+}
+
+/* 반응형 디자인 - 모바일 */
+@media (max-width: 768px) {
+    .main {
+        padding-top: 76px;
+    }
+
+    .tabNavigation {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .tabActive,
+    .tabInactive {
+        width: 100%;
+        padding: 16px 20px;
+    }
+
+    .tabActive::after {
+        height: 3px;
+    }
+
+    .tabText {
+        font-size: 15px;
+    }
+
+    .heroSection {
+        padding: 50px 20px 0px;
+    }
+
+    .heroContent {
+        gap: 40px;
+    }
+
+    .heroTitle {
+        font-size: 36px;
+    }
+
+    .heroDescription {
+        font-size: 16px;
+    }
+
+    .ctaButton {
+        padding: 12px 40px;
+    }
+
+    .ctaButtonText {
+        font-size: 16px;
+    }
+
+    .featureSection,
+    .featureSectionAlt {
+        padding: 60px 20px;
+    }
+
+    .featureContent {
+        gap: 40px;
+    }
+
+    .featureTitle {
+        font-size: 28px;
+    }
+
+    .featureDescription {
+        font-size: 15px;
+    }
+
+    .featureImage {
+        border-radius: 12px;
+    }
+
+    .systemSection {
+        padding: 60px 20px;
+    }
+
+    .systemGrid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .systemCard {
+        padding: 24px;
+    }
+
+    .systemTitle {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .systemDescription {
+        font-size: 14px;
+    }
+}
+
+/* 반응형 디자인 - 작은 모바일 */
+@media (max-width: 480px) {
+    .main {
+        padding-top: 60px;
+    }
+
+    .tabActive,
+    .tabInactive {
+        padding: 14px 16px;
+    }
+
+    .tabText {
+        font-size: 14px;
+    }
+
+    .heroSection {
+        padding: 40px 16px 0px;
+    }
+
+    .heroContent {
+        gap: 32px;
+    }
+
+    .heroSubtitle {
+        font-size: 14px;
+    }
+
+    .heroTitle {
+        font-size: 28px;
+    }
+
+    .heroDescription {
+        font-size: 15px;
+    }
+
+    .ctaButton {
+        padding: 12px 40px;
+    }
+
+    .ctaButtonText {
+        font-size: 14px;
+    }
+
+    .featureSection,
+    .featureSectionAlt {
+        padding: 50px 16px;
+    }
+
+    .featureContent {
+        gap: 32px;
+    }
+
+    .featureLabel {
+        font-size: 14px;
+    }
+
+    .featureTitle {
+        font-size: 24px;
+    }
+
+    .featureDescription {
+        font-size: 14px;
+    }
+
+    .featureImage {
+        border-radius: 10px;
+    }
+
+    .systemSection {
+        padding: 50px 16px;
+    }
+
+    .systemGrid {
+        gap: 12px;
+    }
+
+    .systemCard {
+        padding: 20px;
+    }
+
+    .systemTitle {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .systemDescription {
+        font-size: 13px;
+    }
+}

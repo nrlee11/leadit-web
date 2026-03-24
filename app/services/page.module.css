@@ -1,0 +1,1262 @@
+.desktopServices {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'prentendard';
+}
+
+.nav {
+    align-self: stretch;
+    background-color: #171c61;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 40px;
+    gap: 0px;
+    font-size: 15px;
+    font-family: 'DM Sans';
+}
+
+.image16Icon {
+    height: 31px;
+    width: 139px;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.navLabels {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.div {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 100%;
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.div:hover {
+    opacity: 0.8;
+}
+
+.main {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #263238;
+    padding-top: 100px;
+}
+
+.philosophySection {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px;
+    max-width: 1500px;
+    font-size: 22px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 100%;
+}
+
+.intro {
+    /* height: 134px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 50px;
+    box-sizing: border-box;
+    gap: 28px;
+    text-align: left;
+}
+
+.vision {
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 110%;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.div5 {
+    position: relative;
+    font-size: 60px;
+    letter-spacing: -0.07em;
+    line-height: 130%;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.div6 {
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    font-weight: 500;
+    color: #171c61;
+    text-align: start;
+}
+
+.span {
+    color: #6091c7;
+}
+
+.span2 {
+    color: #885efe;
+}
+
+.card1 {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: var(--color-secondary-lightpurple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    gap: 52px;
+    color: #7eaed6;
+}
+
+.image77Icon {
+    width: 85px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.growthParent {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.growth {
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.div7 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    font-weight: 500;
+    color: #263238;
+    text-align: start;
+}
+
+.card2 {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: var(--color-primary7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 100px;
+    gap: 67px;
+    color: #885efe;
+}
+
+.image78Icon {
+    width: 70px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.imageBreakIcon {
+    align-self: stretch;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.howItWorksSection {
+    width: 100%;
+    background-color: var(--color-primary7);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 80px;
+    box-sizing: border-box;
+    gap: 20px;
+    max-width: 1500px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.intro2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 100px;
+}
+
+.content2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.certificationsAwards {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.div9 {
+    position: relative;
+    font-size: 60px;
+    letter-spacing: -0.07em;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.servingIndividualsAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+}
+
+.step6Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+    font-size: 22px;
+    color: #8a949e;
+}
+
+.step6 {
+    /* width: 1340px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.div10 {
+    width: 225px;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 130%;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.content3 {
+    flex: 1;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    color: #263238;
+}
+
+.div11 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.text2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.step72 {
+    width: 327px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.content6 {
+    align-self: stretch;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 24px 0px 0px;
+    flex-shrink: 0;
+    color: #263238;
+}
+
+.text4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.content20 {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content21 {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text18 {
+    height: 600px;
+    flex: 0.84;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.text19 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    max-width: 100%;
+}
+
+.subtit {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.07em;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.subeng {
+    border-radius: 88px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 30px;
+    font-size: 16px;
+    color: #171c61;
+    font-family: 'DM Sans';
+}
+
+.it {
+    align-self: stretch;
+    position: relative;
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    line-height: 150%;
+    font-family: Pretendard;
+    text-align: center;
+}
+
+.imageIcon {
+    flex: 1;
+    position: relative;
+    border-radius: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    background-color: var(--color-secondary-lightpurple);
+}
+
+.imageIcon2 {
+    flex: 1;
+    position: relative;
+    border-radius: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    background-color: var(--color-primary7);
+}
+
+.servingIndividualsAnd2 {
+    align-self: stretch;
+    height: 60px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.content22 {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text22 {
+    height: 600px;
+    flex: 0.8356;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.philosophySection2 {
+    width: 100%;
+    background-color: var(--color-primary7);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px;
+    box-sizing: border-box;
+    max-width: 1500px;
+    font-size: 20px;
+}
+
+.content23 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.intro3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 50px;
+    gap: 28px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.location {
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.parent {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div63 {
+    width: 200px;
+    text-align: left;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.skV1E {
+    flex: 1;
+    position: relative;
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    line-height: 150%;
+    font-family: Pretendard;
+    text-align: left;
+}
+
+.div69 {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    text-align: left;
+}
+
+.card12 {
+    align-self: stretch;
+    height: 606px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 100px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 30px;
+    color: #7eaed6;
+}
+
+.expertsSection2 {
+    align-self: stretch;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 24px;
+    background-image: url(/Expertssection2_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+}
+
+.content24 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: 100%;
+}
+
+.largeButtonParent {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+    font-size: 15px;
+    font-family: 'DM Sans';
+}
+
+.largeButton4 {
+    border-radius: 88px;
+    background-color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.largeButton4:hover {
+    transform: translateY(-2px);
+}
+
+.largeButtonBlack {
+    width: 149px;
+    border-radius: 88px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 30px;
+    box-sizing: border-box;
+    color: #171c61;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.largeButtonBlack:hover {
+    transform: translateY(-2px);
+}
+
+.footer {
+    align-self: stretch;
+    background-color: #263238;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px 40px;
+    gap: 0px;
+    font-size: 20px;
+    color: #697077;
+}
+
+.leftColumn {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.financialClarityYouContainer {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+}
+
+.trustedFinancialGuidance {
+    color: #f2f4f8;
+}
+
+.rightColumn {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    color: #f2f4f8;
+}
+
+.labels {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.content25 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.buttonWhite {
+    border-radius: 51.57px;
+    background-color: #5b7eb8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.buttonWhite:hover {
+    transform: translateY(-2px);
+}
+
+.learnMore {
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.learnMore:hover {
+    opacity: 0.8;
+}
+
+.allRightsReserved {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 150%;
+    text-align: right;
+}
+
+.mapWrapper {
+    width: 100%;
+    height: 400px;
+    margin-top: 24px;
+}
+
+.mapWrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* ==================== TABLET STYLES (481px - 1024px) ==================== */
+@media (max-width: 1024px) and (min-width: 481px) {
+    .nav {
+        padding: 24px 30px;
+    }
+
+    .navLabels {
+        gap: 30px;
+    }
+
+    .div {
+        font-size: 14px;
+    }
+
+    .philosophySection {
+        font-size: 20px;
+        padding: 60px 40px;
+    }
+
+    .intro {
+        height: auto;
+        padding: 0px 0px 30px;
+        gap: 20px;
+    }
+
+    .vision {
+        font-size: 20px;
+    }
+
+    .div5 {
+        font-size: 40px;
+    }
+
+
+    .card1,
+    .card2 {
+        flex-direction: column;
+        padding: 40px 50px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .growthParent {
+        align-items: center;
+        text-align: center;
+    }
+
+    .div7 {
+        font-size: 18px;
+    }
+
+    .image77Icon {
+        width: 70px;
+    }
+
+    .image78Icon {
+        width: 60px;
+    }
+
+    .howItWorksSection {
+        padding: 80px 40px;
+    }
+
+    .intro2 {
+        padding: 0px 0px 60px;
+    }
+
+    .certificationsAwards {
+        font-size: 20px;
+    }
+
+    .div9 {
+        font-size: 40px;
+    }
+
+    .servingIndividualsAnd {
+        font-size: 16px;
+    }
+
+    .step6Parent {
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    .step6 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .div10 {
+        width: 100%;
+    }
+
+
+    .content20 {
+        width: 100%;
+        flex-direction: column;
+        /* gap: 40px; */
+    }
+
+    .content21 {
+        width: 100%;
+        flex-direction: column-reverse;
+        /* gap: 40px; */
+    }
+
+    .text18 {
+        height: auto;
+        padding: 40px;
+        width: 100%;
+    }
+
+    .text19 {
+        gap: 30px;
+    }
+
+    .subtit {
+        font-size: 40px;
+    }
+
+    .subeng {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .it {
+        font-size: 18px;
+    }
+
+    .imageIcon {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+    }
+
+    .imageIcon2 {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+    }
+
+    .servingIndividualsAnd2 {
+        font-size: 16px;
+        height: auto;
+    }
+
+    .content22 {
+        width: 100%;
+        flex-direction: column;
+        /* gap: 40px; */
+    }
+
+    .text22 {
+        height: auto;
+        padding: 40px;
+        width: 100%;
+    }
+
+    .philosophySection2 {
+        padding: 60px 40px;
+    }
+
+    .content23 {
+        gap: 16px;
+    }
+
+    .intro3 {
+        padding: 0px 0px 30px;
+        gap: 20px;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+
+    .parent {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .div63 {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .skV1E {
+        font-size: 18px;
+    }
+
+    .div69 {
+        font-size: 16px;
+    }
+
+    .card12 {
+        height: 400px;
+        padding: 40px 50px;
+    }
+
+    .expertsSection2 {
+        padding: 100px 40px;
+    }
+
+    .content24 {
+        gap: 30px;
+    }
+
+    .largeButtonParent {
+        gap: 20px;
+    }
+
+    .largeButton4,
+    .largeButtonBlack {
+        font-size: 14px;
+        padding: 14px 28px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 30px;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        width: 100%;
+    }
+
+    .rightColumn {
+        align-items: flex-start;
+    }
+
+    .financialClarityYouContainer {
+        font-size: 16px;
+    }
+
+    .content25 {
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .learnMore {
+        font-size: 16px;
+    }
+
+    .allRightsReserved {
+        text-align: left;
+        font-size: 16px;
+    }
+}
+
+/* ==================== MOBILE STYLES (max-width: 480px) ==================== */
+@media (max-width: 480px) {
+    .nav {
+        padding: 20px 20px;
+    }
+
+    .image16Icon {
+        width: 100px;
+        height: auto;
+    }
+
+    .navLabels {
+        gap: 16px;
+    }
+
+    .div {
+        font-size: 12px;
+    }
+
+    .philosophySection {
+        font-size: 18px;
+        padding: 40px 16px;
+    }
+
+    .intro {
+        height: auto;
+        padding: 0px 0px 20px;
+        gap: 12px;
+    }
+
+    .vision {
+        font-size: 16px;
+    }
+
+    .div5 {
+        font-size: 28px;
+    }
+
+    .card1,
+    .card2 {
+        flex-direction: column;
+        padding: 30px 24px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .growthParent {
+        align-items: center;
+        text-align: center;
+    }
+
+    .growth {
+        font-size: 20px;
+    }
+
+    .div7 {
+        font-size: 16px;
+    }
+
+    .image77Icon {
+        width: 60px;
+    }
+
+    .image78Icon {
+        width: 50px;
+    }
+
+    .howItWorksSection {
+        padding: 60px 20px;
+    }
+
+    .intro2 {
+        padding: 0px 0px 40px;
+    }
+
+    .certificationsAwards {
+        font-size: 16px;
+    }
+
+    .div9 {
+        font-size: 28px;
+    }
+
+    .servingIndividualsAnd {
+        font-size: 14px;
+    }
+
+    .step6Parent {
+        font-size: 16px;
+        gap: 16px;
+    }
+
+    .step6 {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .div10 {
+        width: 100%;
+    }
+
+    .content20 {
+        width: 100%;
+        flex-direction: column;
+        /* gap: 30px; */
+    }
+
+    .content21 {
+        width: 100%;
+        flex-direction: column-reverse;
+        /* gap: 30px; */
+    }
+
+    .content22 {
+        width: 100%;
+        flex-direction: column;
+        /* gap: 30px; */
+    }
+
+    .text18 {
+        height: auto;
+        padding: 30px 20px;
+        width: 100%;
+    }
+
+    .text19 {
+        gap: 20px;
+    }
+
+    .subtit {
+        font-size: 28px;
+    }
+
+    .subeng {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .it {
+        font-size: 16px;
+    }
+
+    .imageIcon {
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .imageIcon2 {
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .servingIndividualsAnd2 {
+        font-size: 14px;
+        height: auto;
+    }
+
+
+    .text22 {
+        height: auto;
+        padding: 30px 20px;
+        width: 100%;
+    }
+
+    .philosophySection2 {
+        padding: 40px 20px;
+    }
+
+    .content23 {
+        gap: 12px;
+    }
+
+    .intro3 {
+        padding: 0px 0px 20px;
+        gap: 12px;
+    }
+
+    .location {
+        font-size: 16px;
+    }
+
+    .parent {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .div63 {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .skV1E {
+        font-size: 15px;
+    }
+
+    .div69 {
+        font-size: 14px;
+    }
+
+    .card12 {
+        height: 300px;
+        padding: 30px 24px;
+    }
+
+    .expertsSection2 {
+        padding: 60px 20px;
+    }
+
+    .content24 {
+        gap: 24px;
+    }
+
+    .largeButtonParent {
+        gap: 16px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .largeButton4,
+    .largeButtonBlack {
+        font-size: 13px;
+        padding: 12px 24px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .largeButtonBlack {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px 20px;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        width: 100%;
+    }
+
+    .rightColumn {
+        align-items: flex-start;
+    }
+
+
+    .financialClarityYouContainer {
+        font-size: 14px;
+    }
+
+    .content25 {
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .learnMore {
+        font-size: 14px;
+    }
+
+    .buttonWhite {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .allRightsReserved {
+        text-align: left;
+        font-size: 14px;
+    }
+}

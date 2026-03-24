@@ -1,0 +1,147 @@
+/* footer2 (가장하단)*/
+.footer2 {
+    align-self: stretch;
+    /* flex: 1; */
+    background-color: #263238;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px 40px;
+    gap: 0px;
+    font-size: 18px;
+    color: #697077;
+
+}
+
+.managingMyTaxes {
+    align-self: stretch;
+    position: relative;
+    /* letter-spacing: -0.04em; */
+    line-height: 150%;
+    color: var(--color-gray-300);
+    font-weight: 400;
+    text-align: start;
+}
+
+.buttonWhite5 {
+    border-radius: 51.57px;
+    background-color: #5b7eb8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.leftColumn {
+    align-self: stretch;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rightColumn {
+    align-self: stretch;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    color: #f2f4f8;
+}
+
+.labels13 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.content12 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.allRightsReserved {
+    align-self: stretch;
+    position: relative;
+    white-space: nowrap;
+    /* letter-spacing: -0.04em; */
+    line-height: 150%;
+    text-align: right;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1024px) and (min-width: 481px) {
+    .footer2 {
+        /* flex-direction: column; */
+        padding: 40px 32px !important;
+        gap: 40px !important;
+    }
+
+    .managingMyTaxes {
+        font-size: 18px;
+    }
+
+
+    .leftColumn,
+    .rightColumn {
+        align-items: flex-start !important;
+        width: 100%;
+    }
+
+    .content12 {
+        flex-direction: column !important;
+        gap: 20px;
+    }
+
+    .allRightsReserved {
+        text-align: right !important;
+    }
+
+    .buttonWhite5 {
+        padding: 8px 16px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .footer2 {
+        flex-direction: column;
+        font-size: 16px;
+        padding: 32px 24px !important;
+        gap: 30px !important;
+    }
+
+    .managingMyTaxes {
+        font-size: 15px;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        align-items: flex-start !important;
+    }
+
+    .content12 {
+        align-items: flex-end !important;
+        gap: 15px;
+    }
+
+    .allRightsReserved {
+        text-align: right !important;
+        font-size: 15px
+    }
+
+    .buttonWhite5 {
+        padding: 8px 16px;
+
+    }
+}

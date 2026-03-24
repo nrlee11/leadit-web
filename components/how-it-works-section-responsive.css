@@ -1,0 +1,157 @@
+/* Tablet Responsive Design for HowItWorksSection */
+@media (max-width: 1024px) and (min-width: 481px) {
+    .howItWorksSection {
+        padding: 80px 32px;
+        gap: 40px;
+    }
+
+    .step1 {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 0px 0px 60px;
+    }
+
+    .imageParent {
+        width: auto;
+        max-width: 220px;
+        flex-direction: column;
+        order: 2;
+        flex-shrink: 0;
+        gap: 15px;
+    }
+
+    .imageIcon {
+        width: 200px;
+        height: 200px;
+    }
+
+    .parent {
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .div,
+    .div21 {
+        width: 100%;
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .softwareDevelopment,
+    .systemIntegration {
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .content {
+        flex: 1;
+        order: 1;
+        justify-content: flex-start;
+    }
+
+    .text {
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .group {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .div2 {
+        font-size: 14px;
+        flex-shrink: 0;
+        min-width: 80px;
+    }
+
+    .kren {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .parent10 {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 480px) {
+    .howItWorksSection {
+        padding: 60px 16px;
+        gap: 30px;
+    }
+
+    .step1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0px 0px 50px;
+    }
+
+    .imageParent {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        order: 1;
+        gap: 15px;
+    }
+
+    .imageIcon {
+        width: 180px;
+        height: 180px;
+    }
+
+    .parent {
+        align-items: center;
+        gap: 8px;
+    }
+
+    .div,
+    .div21 {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .softwareDevelopment,
+    .systemIntegration {
+        width: 100%;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .content {
+        order: 2;
+        width: 100%;
+    }
+
+    .text {
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .group {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .div2 {
+        font-size: 13px;
+    }
+
+    .kren {
+        font-size: 13px;
+        line-height: 140%;
+    }
+
+    .parent10 {
+        width: 100%;
+        flex-direction: column;
+        gap: 4px;
+    }
+}

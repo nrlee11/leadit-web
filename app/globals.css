@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:ital,wght@0,400;0,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500&display=swap');
+
+
+/*  global.css 안에 넣으면 좋은 것들
+✔ 1) 기본 리셋 스타일(reset CSS)
+✔ 2) 폰트 세팅
+✔ 3) 색상, 공통 변수(예: root 변수)
+✔ 4) 컨테이너 레이아웃
+✔ 5) 공통적으로 반복되는 여백, 텍스트 스타일
+✔ 6) 전체 flex 정렬 규칙
+✔ 7) 페이지 전체에서 쓰는 클래스들 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* 기본 본문 폰트 */
+body {
+    font-family: 'Pretendard', sans-serif;
+    color: #222;
+    line-height: 1.5;
+}
+
+:root {
+    /* Brand Primary Colors */
+    --color-primary1: #171C61;
+    --color-primary2: #215A9E;
+    --color-primary3: #3D76AD;
+    --color-primary4: #5B7EB8;
+    --color-primary5: #6091C7;
+    --color-primary6: #7EAED6;
+    --color-primary7: #eff5f9;
+
+    /* Brand Secondary Colors */
+    --color-secondary-purple: #885EFE;
+    --color-secondary-darkpurple: #523898;
+    --color-secondary-lightpurple: #F3EFFF;
+    --color-secondary-lightpurple2: #bcb0da;
+
+    /* Grayscale */
+    --color-black: #000000;
+    --color-gray-900: #1A1A1A;
+    --color-gray-700: #4D4D4D;
+    --color-gray-500: #8C8C8C;
+    --color-gray-300: #D9D9D9;
+    --color-gray-100: #F5F5F5;
+    --color-white: #FFFFFF;
+
+}
+
+/* 제목 스타일 */
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+/* 기본 텍스트 */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 작은 텍스트 */
+.small {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* 공통 유틸 */
+.text-center {
+    text-align: center;
+}
+
+
+/* 박스모델 리셋 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 기본 폰트, 스크롤 부드럽게 */
+html,
+body {
+    height: 100%;
+    font-family: 'Pretendard', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* 링크 기본 스타일 제거 */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 리스트 스타일 제거 */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 이미지 반응형 */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 버튼 초기화 */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+}
+
+/* 입력 요소 Reset */
+input,
+textarea,
+select {
+    font: inherit;
+    border-radius: 0;
+    outline: none;
+}
+
+/* 테이블 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* strong 초기화 */
+strong {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 회사로고 (헤더,푸터에 들어있음)*/
+
+.logo_wrap {
+    position: relative;
+    width: 157px;
+    /* 기본 크기 */
+    height: 35px;
+    /* 비율 유지 */
+}
+
+.image16Icon {
+    width: 157px;
+    height: auto;
+}
+
+@media (max-width: 800px) and (min-width: 481px) {
+    .logo_wrap {
+        width: 120px;
+        height: 28px;
+    }
+
+    .image16Icon {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_wrap {
+        width: 117px;
+        height: 26px;
+    }
+
+    .image16Icon {
+        width: 117px;
+    }
+}

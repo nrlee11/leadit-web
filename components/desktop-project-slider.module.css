@@ -1,0 +1,252 @@
+.sliderContainer {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding: 0;
+}
+
+.navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #263238;
+}
+
+.navButton:hover {
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-50%) scale(1.05);
+}
+
+.navButton:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.navButtonPrev {
+    left: -50px;
+}
+
+.navButtonNext {
+    right: -50px;
+}
+
+.navButton svg {
+    width: 24px;
+    height: 24px;
+}
+
+.slider {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 0;
+    padding-bottom: 15px;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.page {
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.card {
+    height: auto;
+    min-height: 438px;
+    width: calc(100% / 4.3);
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    flex-shrink: 0;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cardImage {
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.cardContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    flex: 1;
+}
+
+.category {
+    font-size: 16px;
+    letter-spacing: -0.44px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #885efe;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.title {
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #000;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.date {
+    font-size: 18px;
+    letter-spacing: -0.44px;
+    line-height: 150%;
+    color: #697077;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.description {
+    font-size: 14px;
+    letter-spacing: -0.44px;
+    line-height: 150%;
+    color: #697077;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.progressContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin-top: 20px;
+}
+
+.progressTrack {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    height: 4px;
+    background-color: #b1b8be;
+}
+
+.progressFill {
+    height: 4px;
+    background: linear-gradient(to right, #885efe 0%, #885efe 100%);
+    border-top: 4px solid #885efe;
+    box-sizing: border-box;
+    transition: width 0.5s ease;
+    position: relative;
+}
+
+/* .progressFill::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: #885efe;
+    border-radius: 50%;
+} */
+
+.progressTrack::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #b1b8be;
+    border-top: 4px solid #b1b8be;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+/* .progressIcon {
+    height: 22.1px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressIcon svg {
+    width: 100.2px;
+    height: 22.1px;
+} */
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #b1b8be;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+}
+
+.indicator.active {
+    width: 24px;
+    border-radius: 4px;
+    background-color: #885efe;
+}
+
+/* 태블릿 & 모바일에서는 숨김 */
+@media (max-width: 1024px) {
+    .sliderContainer {
+        display: none;
+
+    }
+
+}

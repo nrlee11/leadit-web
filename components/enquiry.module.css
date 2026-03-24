@@ -1,0 +1,130 @@
+.expertsSection2 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 24px;
+    background-image: url(/Expertssection2_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    color: #fff;
+}
+
+.content11 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.secTitle {
+    align-self: stretch;
+    letter-spacing: -0.07em;
+    line-height: 130%;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.largeButtonParent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 343px;
+    gap: 20px;
+}
+
+.largeButton5,
+.largeButton6 {
+    min-width: 140px;
+    padding: 12px 20px;
+    border-radius: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.largeButton5 {
+    background-color: #263238;
+    color: #fff;
+}
+
+.largeButton6 {
+    background-color: #fff;
+    color: #171c61;
+}
+
+.heroDescription {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    /* letter-spacing: -0.04em; */
+    line-height: 150%;
+}
+
+/* ------------------- 태블릿 ------------------- */
+@media (max-width: 1024px) and (min-width: 481px) {
+    .expertsSection2 {
+        padding: 120px 40px !important;
+    }
+
+    .secTitle {
+        font-size: 48px !important;
+    }
+
+    .largeButtonParent {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .largeButton5,
+    .largeButton6 {
+        flex: unset;
+        width: auto;
+        min-width: 120px;
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    .heroDescription {
+        font-size: 18px !important;
+        text-align: center;
+    }
+}
+
+
+/* ------------------- 모바일 ------------------- */
+@media (max-width: 480px) {
+    .expertsSection2 {
+        padding: 120px 24px !important;
+        /* 160px → 120px */
+    }
+
+    .secTitle {
+        font-size: 32px !important;
+    }
+
+    .largeButtonParent {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .largeButton5,
+    .largeButton6 {
+        width: 100%;
+        min-width: 0;
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    .heroDescription {
+        font-size: 16px !important;
+        text-align: center;
+    }
+}
