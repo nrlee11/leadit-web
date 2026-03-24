@@ -92,7 +92,7 @@ const Projects: NextPage = () => {
                     </div>
                     <div className={styles.step13}>
                         <div className={styles.frameParent2}>
-                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/kwwa.png" />
+                            <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/leadit-web/kwwa.png" />
                             <Image className={styles.imageIcon3} width={387} height={387} sizes="100vw" alt="" src="/khuniv.png" />
                         </div>
                         <div className={styles.content4}>
