@@ -14,56 +14,56 @@ const Projects: NextPage = () => {
             title: "한국생산성본부 LMS 시스템",
             date: "2022",
             description: "국내 최대 교육 기관으로서 다양한 교육과정 및 교육방식을 제공하고, 최대 동시 접속자 보장 등을 만족할 수 있도록 개발된 최신 LMS 시스템입니다.",
-            image: "/rep_project1.png"
+            image: "/leadit-web/rep_project1.png"
         },
         {
             category: "소프트웨어 개발",
             title: "대한건설기계협회 체납관리시스템",
             date: "2018. 04",
             description: "건설기계 사업자들의 임대료 체납을 원활하게 회수 지원 할 수 있도록 관리하기 위해 만들었으며 모바일도 지원가능한 반응형 웹으로 개발하였습니다.",
-            image: "/rep_project2.png"
+            image: "/leadit-web/rep_project2.png"
         },
         {
             category: "소프트웨어 개발",
             title: "대한적십자사 DMS 구축",
             date: "2018",
             description: "노후된 기존의 시스템의 기능을 검토.보완하고 자동이체, 카드결제, 핸드폰결제 등 다양한 결제방법을 사용할 수 있도록 금결원 통신 및 VAN사 연계 기능을 추가하였습니다",
-            image: "/rep_project3.png"
+            image: "/leadit-web/rep_project3.png"
         },
         {
             category: "소프트웨어 개발",
             title: "인천세관 내국세 환급시스템",
             date: "2018",
             description: "국내 외국인 관광객 대상 부가세 환급 시스템으로, 2015~2017년 4단계에 걸쳐 구축 후 현재까지 운영·유지보수 중인 시스템입니다.",
-            image: "/rep_project4.png"
+            image: "/leadit-web/rep_project4.png"
         },
         {
             category: "통합유지보수",
             title: "경희대학교 (국제캠퍼스)",
             date: "2020 ~ 2025",
             description: "온라인 장애 접수부터 복구까지를 실시간으로 관리하고, 복합장애 데이터를 분석해 향후 장애에 대비하는 시스템입니다.",
-            image: "/rep_project7.png"
+            image: "/leadit-web/rep_project7.png"
         },
         {
             category: "인프라 구축",
             title: "포항공과대학교 중앙전산실",
             date: "2018 ~ 2024",
             description: "중앙전산실은 학교업무 및 학사행정 전반에 대한 학사 업무 및 학생지원시스템을 구축, 서비스를 제공하고 있습니다.",
-            image: "/rep_project8.png"
+            image: "/leadit-web/rep_project8.png"
         },
         {
             category: "하드웨어 개발",
             title: "아주대학교",
             date: "2022 ~2025",
             description: "아주대학교 스토리지 증설 및 GPU 서버 구축 사업",
-            image: "/rep_project9.png"
+            image: "/leadit-web/rep_project9.png"
         },
         {
             category: "통합유지보수",
             title: "경희대학교 전산자원 통합유지보수",
             date: "2018. 04",
             description: "캠퍼스에서 운용되고 있는 모든 소프트웨어 어플리케이션, 하드웨어 인프라를 통합 유지 관리하는 막중한 사업입니다",
-            image: "/rep_project10.png"
+            image: "/leadit-web/rep_project10.png"
         },
     ];
 

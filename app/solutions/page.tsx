@@ -57,10 +57,10 @@ const Solutions: NextPage = () => {
                 }
             ],
             featureImages: [
-                '/bizman1.png',
-                '/bizman2.png',
-                '/bizman3.png',
-                '/bizman4.png'
+                '/leadit-web/bizman1.png',
+                '/leadit-web/bizman2.png',
+                '/leadit-web/bizman3.png',
+                '/leadit-web/bizman4.png'
             ],
             systems: [
                 { title: '전자결재 시스템', description: '상신, 결재, 반려, 전결, 참조, 공람 등 오프라인의 결재 프로세스를 온라인으로 완벽히 지원합니다.' },
@@ -102,9 +102,9 @@ const Solutions: NextPage = () => {
                 }
             ],
             featureImages: [
-                '/bizlmsfeature1.png',
-                '/bizlmsfeature2.png',
-                '/bizlmsfeature3.png'
+                '/leadit-web/bizlmsfeature1.png',
+                '/leadit-web/bizlmsfeature2.png',
+                '/leadit-web/bizlmsfeature3.png'
             ],
             systems: [
                 { title: '효율적 교육과정 운영', description: '과정유형, 분야/분류, 기간, 대상 등추천/설정/입력/선택 등 사용자 Needs 기반 세부 설정이 가능합니다.' },
@@ -128,7 +128,7 @@ const Solutions: NextPage = () => {
                 },
             ],
             featureImages: [
-                '/bizlicensefeature1.png',
+                '/leadit-web/bizlicensefeature1.png',
             ],
             systems: [
                 { title: '수강관리 시스템', description: '수강 신청부터 수료까지 전 과정을 체계적으로 관리하고 수강생의 학습 이력을 추적합니다.' },
@@ -162,9 +162,9 @@ const Solutions: NextPage = () => {
                 }
             ],
             featureImages: [
-                '/bizsupportfeature1.png',
-                '/bizsupportfeature2.png',
-                '/bizsupportfeature3.png'
+                '/leadit-web/bizsupportfeature1.png',
+                '/leadit-web/bizsupportfeature2.png',
+                '/leadit-web/bizsupportfeature3.png'
             ],
             systems: [
                 { title: '후원자 정보관리', description: '후원자의 정보를 한 눈에 볼 수 있으며, 후원자의 각종 정보를 신속하게 추가 혹은 수정 할 수 있는 기능을 제공합니다.' },
