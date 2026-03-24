@@ -532,7 +532,7 @@
 
 .selectField {
     appearance: none;
-    background-image: url('/icons/chevron-down.svg');
+    background-image: url('/leadit-web/icons/chevron-down.svg');
     /* 선택 */
     background-repeat: no-repeat;
     background-position: right 16px center;
