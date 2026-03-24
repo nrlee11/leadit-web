@@ -19,7 +19,7 @@ const Solutions: NextPage = () => {
             title: '비즈맨 BIZ-MAN',
             subtitle: '통합 인사관리 시스템',
             description: '효율적인 전자결재 시스템으로 사내업무 및 사원관리를 간편하게',
-            heroImage: '/bizman-bg.png',
+            heroImage: '/leadit-web/bizman-bg.png',
             features: [
                 {
                     number: '01',
@@ -76,7 +76,7 @@ const Solutions: NextPage = () => {
             title: '비즈 LMS',
             subtitle: '학습관리 전문 솔루션',
             description: '온, 오프라인을 연계하여 콘텐츠 다양화를 통한 여러 방식의 비 대면 교육 채널 확보 및 사용자 맞춤형 스마트 교육서비스를 제공하는 학습관리 전문 솔루션',
-            heroImage: '/bizlms-bg.png',
+            heroImage: '/leadit-web/bizlms-bg.png',
             features: [
                 {
                     number: '01',
@@ -119,7 +119,7 @@ const Solutions: NextPage = () => {
             title: '비즈 라이센스 BIZ-LICENSE',
             subtitle: '라이센스 관리 전문 솔루션',
             description: '자격증 발급부터 검증까지 전 과정을 자동화하는 통합 자격관리 솔루션입니다.',
-            heroImage: '/bizlicense-bg.png',
+            heroImage: '/leadit-web/bizlicense-bg.png',
             features: [
                 {
                     number: '01',
@@ -143,7 +143,7 @@ const Solutions: NextPage = () => {
             title: '비즈 서포트 BIZ-SUPPORT',
             subtitle: '후원관리 시스템',
             description: '각종 후원정보관리를 체계적으로 도와주는 통합 솔루션 비즈 서포트',
-            heroImage: '/bizsupport-bg.png',
+            heroImage: '/leadit-web/bizsupport-bg.png',
             features: [
                 {
                     number: '01',
