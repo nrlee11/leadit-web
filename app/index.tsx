@@ -5,7 +5,7 @@ const Desktop = () => {
 	return (
 		<div className={styles.desktop}>
 			<div className={styles.logo1Parent}>
-				<Image src="/placeholder.svg" className={styles.logo1Icon} width={107} height={23} sizes="100vw" alt="logo" />
+				<Image src="/leadit-web/placeholder.svg" className={styles.logo1Icon} width={107} height={23} sizes="100vw" alt="logo" />
 				<div className={styles.parent}>
 					<div className={styles.div}>개인정보처리방침</div>
 					<div className={styles.div}>입사지원서 양식</div>
@@ -72,7 +72,7 @@ const Desktop = () => {
 
 					<div className={styles.section1}>
 						<div className={styles.card}>
-							<Image src="/placeholder.svg" className={styles.cardImageIcon} width={214} height={230} sizes="100vw" alt="card1" />
+							<Image src="/leadit-web/placeholder.svg" className={styles.cardImageIcon} width={214} height={230} sizes="100vw" alt="card1" />
 							<div className={styles.content3}>
 								<div className={styles.text2}>
 									<div className={styles.cardTitle}>통합인사관리 프로그램</div>
@@ -105,13 +105,13 @@ const Desktop = () => {
 								</div>
 							</div>
 
-							<Image src="/placeholder.svg" className={styles.cardImageIcon2} width={235} height={232} sizes="100vw" alt="card2" />
+							<Image src="/leadit-web/placeholder.svg" className={styles.cardImageIcon2} width={235} height={232} sizes="100vw" alt="card2" />
 						</div>
 					</div>
 
 					<div className={styles.section3}>
 						<div className={styles.card3}>
-							<Image src="/placeholder.svg" className={styles.cardImageIcon3} width={243} height={209} sizes="100vw" alt="card3" />
+							<Image src="/leadit-web/placeholder.svg" className={styles.cardImageIcon3} width={243} height={209} sizes="100vw" alt="card3" />
 							<div className={styles.content3}>
 								<div className={styles.text2}>
 									<div className={styles.cardTitle}>후원관리 프로그램</div>
@@ -183,7 +183,7 @@ const Desktop = () => {
 									고객의 요구사항을 세세히 반영한 맞춤형 솔루션을 제안해 주셔서 만족도가 매우 높습니다.
 								</div>
 								<div className={styles.byline}>
-									<Image src="/placeholder.svg" className={styles.imageIcon} width={46} height={48} sizes="100vw" alt="" />
+									<Image src="/leadit-web/placeholder.svg" className={styles.imageIcon} width={46} height={48} sizes="100vw" alt="" />
 									<div className={styles.taylorM28}>B물류(주) IT팀 박00 차장</div>
 								</div>
 							</div>
@@ -194,7 +194,7 @@ const Desktop = () => {
 									여러 시스템이 분산되어 있었는데, 통합 SI 사업을 통해 전사 시스템이 하나로 연결되었습니다.
 								</div>
 								<div className={styles.byline}>
-									<Image src="/placeholder.svg" className={styles.imageIcon} width={46} height={48} sizes="100vw" alt="" />
+									<Image src="/leadit-web/placeholder.svg" className={styles.imageIcon} width={46} height={48} sizes="100vw" alt="" />
 									<div className={styles.taylorM28}>C공공기관 전산담당 이00 주무관</div>
 								</div>
 							</div>
@@ -226,7 +226,7 @@ const Desktop = () => {
 				<div className={styles.footer2}>
 					<div className={styles.leftColumn}>
 						<div className={styles.logo}>
-							<Image src="/placeholder.svg" className={styles.image16Icon} width={139} height={31} sizes="100vw" alt="" />
+							<Image src="/leadit-web/placeholder.svg" className={styles.image16Icon} width={139} height={31} sizes="100vw" alt="" />
 						</div>
 
 						<div className={styles.managingMyTaxes}>
